@@ -4,7 +4,7 @@ function dx = Practica_2_fx(t, x)
     l1 = 0.3;   %Longitud de "varilla" 1
     l2 = 0.25;  %Longitud de "varilla" 1
     g = 9.8;    %Gravedad
-    c1 = 0.2;   %Constante 1 (?)
+    c1 = 0.2;   %Fricción (?) o constante
 
     dx = zeros(4,1);    %Generar Matriz 4x1
     
